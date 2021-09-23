@@ -3,9 +3,9 @@ This project aims to detects cars and swimming pools in satellite test image dat
 https://drive.google.com/drive/folders/1SZ9rEcBs7u8t0z0eem8_yEVbAeSc_3Tc
 
 # Installation
-conda install tensorflow
-conda install keras
-Go to the your working directory and open Git Bash. Use git clone https://github.com/fizyr/keras-retinanet
+## conda install tensorflow
+## conda install keras
+## Go to the your working directory and open Git Bash. Use git clone https://github.com/fizyr/keras-retinanet
 
 # Dataset
 https://www.kaggle.com/kbhartiya83/swimming-pool-and-car-detection
