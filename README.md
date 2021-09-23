@@ -29,3 +29,8 @@ python build_dataset.py -l data/training_data/labels -i data/training_data/image
 
 # Results
 The Accuracy could have been improved if I used batch size of 64 or 32 but I used a batch size of 8 because of limitations of my GPU. I'd recommend you to try experimenting with batch size and threshold value during model training.
+
+![alt text](https://github.com/AdhaarSharma/CarAndSwimmingPoolDetectionUsingSatelliteImageDataset/blob/main/images/bb_000000224.jpg)
+![alt text](https://github.com/AdhaarSharma/CarAndSwimmingPoolDetectionUsingSatelliteImageDataset/blob/main/images/bb_000000382.jpg)
+![alt text](https://github.com/AdhaarSharma/CarAndSwimmingPoolDetectionUsingSatelliteImageDataset/blob/main/images/bb_000000992.jpg)
+![alt text](https://github.com/AdhaarSharma/CarAndSwimmingPoolDetectionUsingSatelliteImageDataset/blob/main/images/bb_000000978.jpg)
