@@ -20,7 +20,7 @@ python build_dataset.py -l data/training_data/labels -i data/training_data/image
 * python train.py --freeze-backbone --random-transform --weights resnet50_coco_best_v2.1.0.h5 --weighted-average --batch-size 8 --steps 100 --epochs 30 csv data/training_data/train.csv data/training_data/classes.csv
 
 # Evaluation 
-* Run the evaluate.py script to train your model. The script will be present inside keras-retinanet/bin directory
+* Run the evaluate.py script to evaluate your model. The script will be present inside keras-retinanet/bin directory
 * python keras_retinanet/bin/evaluate.py csv data/training_data/test.csv data/training_data/classes.csv resnet50_csv_30.h5 --convert-model
 
 # Predictions
